@@ -1,0 +1,15 @@
+# ---- Global rules for eclipse, intellij and maven
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+*.iws
+.DS_Store
+log/
+*~
+
+# ---- Specific rules for Angular and Node Projects
+node_modules/
+bower_components/
+dist/
